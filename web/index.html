@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <!-- Latest compiled and minified CSS -->
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-mocks.js"></script>
+        <script src="app.js"></script>
+        <title></title>
+    </head>
+    <body ng-app="examApp">
+
+        <h1>Grades</h1>
+        <p>Insert table here</p>
+        <!--        <div id="tabel" ng-controller="ExamController as ctrl">
+                    <table class="table table-striped" style="width: 80%">
+                        <tr>
+                            <th>Name</th>
+                            <th>Basic Programming</th>
+                            <th>Advanced Programming</th>
+                            <th>DataBase Intro</th>
+                            <th>Average</th>
+                        </tr>
+                        <tr ng-repeat="x in studentsInfo.students">
+                            <td>{{x.name}}</td>
+                            <td>{{x.grades[0].grade}}</td>
+                            <td>{{x.grades[1].grade}}</td>
+                            <td>{{x.grades[2].grade}}</td>
+                            <td>{{x | averageFilter}}</td>
+                        </tr>
+        
+                    </table>
+                </div>-->
+        <div><student-grades/></div>
+
+        <script src="app.js" type="text/javascript"></script>
+    </body>
+</html>

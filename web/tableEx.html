@@ -1,0 +1,2 @@
+
+<div ng-controller="ExamController as ctrl"><table class="table table-striped" style="width: 80%"><tr><th>Name</th><th>Basic Programming</th><th>Advanced Programming</th><th>DataBase Intro</th><th>Average</th></tr><tr ng-repeat="x in studentsInfo.students"> <td>{{x.name}}</td><td>{{x.grades[0].grade}}</td><td>{{x.grades[1].grade}}</td><td>{{x.grades[2].grade}}</td><td>{{x| averageFilter}}</td></tr></table></div>
